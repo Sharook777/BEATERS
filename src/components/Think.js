@@ -4,14 +4,14 @@ const thinks = [
   {
     title: "Innovation",
     icon: "/icons/innovation.svg",
-    image: "/assets/innovation.svg",
+    image: "./assets/innovation.svg",
     description:
       "We embrace innovation and continually explore emerging technologies and industry trends to develop solutions that push the boundaries of what is possible.",
     link: "innovation",
   },
   {
     title: "Client Success",
-    image: "/assets/client-success.svg",
+    image: "./assets/client-success.svg",
     icon: "/icons/client-succes.svg",
     description:
       "Our clients' success is at the heart of everything we do. We collaborate closely with them, understanding their unique needs and challenges, to deliver tailor-made solutions that drive their business forward.",
@@ -19,7 +19,7 @@ const thinks = [
   },
   {
     title: "Continuous Learning and Growth",
-    image: "/assets/continuous-learning-and-growth.svg",
+    image: "./assets/continuous-learning-and-growth.svg",
     icon: "/icons/continuos_learning_and_growth.svg",
     description:
       "We are committed to delivering exceptional quality in all our deliverables. Our team of skilled professionals follows industry best practices and rigorous quality standards to ensure the highest level of performance, reliability, and security.",
@@ -27,7 +27,7 @@ const thinks = [
   },
   {
     title: "Quality and Excellence",
-    image: "/assets/quality-excellence.svg",
+    image: "./assets/quality-excellence.svg",
     icon: "/icons/quality_excellence.svg",
     description:
       "We foster a culture of continuous learning and growth, empowering our team members to expand their skills and stay up-to-date with the latest advancements in technology. This enables us to offer cutting-edge solutions that address the evolving needs of our clients.",
@@ -35,7 +35,7 @@ const thinks = [
   },
   {
     title: "Ethical Practices",
-    image: "/assets/ethical-practices.svg",
+    image: "./assets/ethical-practices.svg",
     icon: "/icons/ethical_practices.svg",
     description:
       "We conduct our business with integrity, transparency, and ethical practices. We prioritize the privacy and security of our clients' data and adhere to industry regulations and standards.",
@@ -43,7 +43,7 @@ const thinks = [
   },
   {
     title: "Design Thinking",
-    image: "/assets/design-thinking.svg",
+    image: "./assets/design-thinking.svg",
     icon: "/icons/design_thinking.svg",
     description:
       "We leverage the power of design thinking to transform challenges into opportunities. In a rapidly evolving digital landscape, we understand that the key to success lies in crafting solutions that truly resonate with users.",

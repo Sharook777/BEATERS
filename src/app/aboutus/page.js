@@ -9,7 +9,7 @@ export default function AboutUs() {
     <div>
       <div
         style={{
-          background: 'url("/assets/home.png")',
+          background: 'url("./assets/home.png")',
           height: "100vh",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -104,7 +104,7 @@ export default function AboutUs() {
         </div>
         <div>
           <Image
-            src="/assets/about-us.svg"
+            src="./assets/about-us.svg"
             alt="Beaters"
             width={500}
             height={60}
@@ -161,7 +161,7 @@ export default function AboutUs() {
             >
               <div style={{}}>
                 <img
-                  src="/assets/office-1.svg"
+                  src="./assets/office-1.svg"
                   alt="office 1"
                   style={{
                     backgroundPosition: "center",
@@ -186,7 +186,7 @@ export default function AboutUs() {
                 >
                   <div>
                     <Image
-                      src="/assets/map-icon.svg"
+                      src="./assets/map-icon.svg"
                       alt="Beaters"
                       width={10}
                       height={40}
@@ -220,7 +220,7 @@ export default function AboutUs() {
           }}
         >
           <Image
-            src="/assets/office-locations-banner.svg"
+            src="./assets/office-locations-banner.svg"
             alt="Beaters"
             width={300}
             height={40}
@@ -238,7 +238,7 @@ export default function AboutUs() {
           gap: 20,
           background: "#00070D",
           padding: "50px 50px 50px 50px",
-          background: 'url("/assets/careers-bg.svg")',
+          background: 'url("./assets/careers-bg.svg")',
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -297,7 +297,7 @@ export default function AboutUs() {
               >
                 <div>
                   <Image
-                    src="/assets/experience-icon.svg"
+                    src="./assets/experience-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -326,7 +326,7 @@ export default function AboutUs() {
               >
                 <div>
                   <Image
-                    src="/assets/location-icon.svg"
+                    src="./assets/location-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -355,7 +355,7 @@ export default function AboutUs() {
               >
                 <div>
                   <Image
-                    src="/assets/user-icon.svg"
+                    src="./assets/user-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -397,7 +397,7 @@ export default function AboutUs() {
                 >
                   Apply
                   <Image
-                    src="/assets/send-arrow-icon.svg"
+                    src="./assets/send-arrow-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -438,7 +438,7 @@ export default function AboutUs() {
               >
                 <div>
                   <Image
-                    src="/assets/experience-icon.svg"
+                    src="./assets/experience-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -467,7 +467,7 @@ export default function AboutUs() {
               >
                 <div>
                   <Image
-                    src="/assets/location-icon.svg"
+                    src="./assets/location-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -496,7 +496,7 @@ export default function AboutUs() {
               >
                 <div>
                   <Image
-                    src="/assets/user-icon.svg"
+                    src="./assets/user-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
@@ -538,7 +538,7 @@ export default function AboutUs() {
                 >
                   Apply
                   <Image
-                    src="/assets/send-arrow-icon.svg"
+                    src="./assets/send-arrow-icon.svg"
                     alt="Beaters"
                     width={15}
                     height={40}
