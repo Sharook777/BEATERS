@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           }}
         >
           <Link href="/">
-            <Image src="./assets/logo.png" alt="Logo" width={200} height={60} />
+            <Image src="./assets/Logo.png" alt="Logo" width={200} height={60} />
           </Link>
           <div
             style={{
