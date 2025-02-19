@@ -4,35 +4,35 @@ import Link from "next/link";
 const ourServices = [
   {
     title: "Mobile App Development",
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/mobile-design.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/mobile-design.svg`,
     description:
       "We have expertise in developing user-friendly and visually appealing mobile applications for both iOS and Android platforms.",
     link: "mobile-app-development",
   },
   {
     title: "Web App Development",
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/web-app.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/web-app.svg`,
     description:
       "We specialize in crafting dynamic and scalable web applications tailored to meet your unique business requirements and we provide end-to-end solutions.",
     link: "web-app-development",
   },
   {
     title: "Web Design",
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/web-design.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/web-design.svg`,
     description:
       "We believe that a visually stunning and user-friendly website is the gateway to success in the online realm. Our experts blend creativity with usability to craft exceptional websites.",
     link: "web-design",
   },
   {
     title: "Software Development",
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/software-development.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/software-development.svg`,
     description:
       "We emphasize clean code architecture, efficient database design, and rigorous testing to ensure the reliability and performance of the software.",
     link: "software-development",
   },
   {
     title: "Maintenance and Support",
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/maintenance-support.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/maintenance-support.svg`,
     description:
       "Our technical support team is available to assist clients with any queries or concerns, ensuring uninterrupted functionality and minimizing any potential downtime.",
     link: "maintenance-and-support",
@@ -111,7 +111,7 @@ export default function OurServices() {
                 Know more
                 <div>
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/right-arrow.svg`}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icons/right-arrow.svg`}
                     alt="Beaters"
                     width={10}
                     height={60}

@@ -100,7 +100,7 @@ export default function Home() {
               >
                 Know More
                 <Image
-                  src="{`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/expand.svg"
+                  src="{`${process.env.NEXT_PUBLIC_BASE_PATH}/icons/expand.svg"
                   alt="icon"
                   width={15}
                   height={20}
@@ -126,7 +126,7 @@ export default function Home() {
               >
                 Connect with Us
                 <Image
-                  src="{`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/messages.svg"
+                  src="{`${process.env.NEXT_PUBLIC_BASE_PATH}/icons/messages.svg"
                   alt="icon"
                   width={20}
                   height={20}

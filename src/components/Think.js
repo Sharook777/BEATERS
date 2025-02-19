@@ -3,7 +3,7 @@ import Image from "next/image";
 const thinks = [
   {
     title: "Innovation",
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/innovation.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/innovation.svg`,
     image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/innovation.svg`,
     description:
       "We embrace innovation and continually explore emerging technologies and industry trends to develop solutions that push the boundaries of what is possible.",
@@ -12,7 +12,7 @@ const thinks = [
   {
     title: "Client Success",
     image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/client-success.svg`,
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/client-succes.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/client-succes.svg`,
     description:
       "Our clients' success is at the heart of everything we do. We collaborate closely with them, understanding their unique needs and challenges, to deliver tailor-made solutions that drive their business forward.",
     link: "client-success",
@@ -20,7 +20,7 @@ const thinks = [
   {
     title: "Continuous Learning and Growth",
     image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/continuous-learning-and-growth.svg`,
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/continuos_learning_and_growth.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/continuos_learning_and_growth.svg`,
     description:
       "We are committed to delivering exceptional quality in all our deliverables. Our team of skilled professionals follows industry best practices and rigorous quality standards to ensure the highest level of performance, reliability, and security.",
     link: "continuous-learning-and-growth",
@@ -28,7 +28,7 @@ const thinks = [
   {
     title: "Quality and Excellence",
     image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/quality-excellence.svg`,
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/quality_excellence.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/quality_excellence.svg`,
     description:
       "We foster a culture of continuous learning and growth, empowering our team members to expand their skills and stay up-to-date with the latest advancements in technology. This enables us to offer cutting-edge solutions that address the evolving needs of our clients.",
     link: "quality-excellence",
@@ -36,7 +36,7 @@ const thinks = [
   {
     title: "Ethical Practices",
     image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/ethical-practices.svg`,
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/ethical_practices.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/ethical_practices.svg`,
     description:
       "We conduct our business with integrity, transparency, and ethical practices. We prioritize the privacy and security of our clients' data and adhere to industry regulations and standards.",
     link: "ethical-practices",
@@ -44,7 +44,7 @@ const thinks = [
   {
     title: "Design Thinking",
     image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/design-thinking.svg`,
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icon/design_thinking.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/icons/design_thinking.svg`,
     description:
       "We leverage the power of design thinking to transform challenges into opportunities. In a rapidly evolving digital landscape, we understand that the key to success lies in crafting solutions that truly resonate with users.",
     link: "design-thinking",
