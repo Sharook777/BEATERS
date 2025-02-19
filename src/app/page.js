@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <div
         style={{
-          background: 'url("/assets/home.png")',
+          background: 'url("./assets/home.png")',
           height: "100vh",
           backgroundPosition: "center",
           backgroundSize: "cover",
