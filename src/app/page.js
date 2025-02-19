@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <div
         style={{
-          background: 'url("/public/assets/home.png")',
+          background: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/assets/home.png")`,
           height: "100vh",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
         <div>
           <Image
-            src="/public/assets/home-2.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/assets/home-2.png`}
             alt="Beaters"
             width={400}
             height={60}
@@ -214,7 +214,7 @@ export default function Home() {
         </div>
         <div
           style={{
-            background: 'url("/public/assets/home2.svg")',
+            background: `url('/${process.env.NEXT_PUBLIC_BASE_PATH}/assets/home2.svg')`,
             padding: "50px 50px 50px 50px",
             color: "#fff",
             flex: 1,
