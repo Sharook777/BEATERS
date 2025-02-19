@@ -426,7 +426,7 @@ export default function AboutUs() {
                   color: "#FFFFFF",
                 }}
               >
-                Moile App Developer
+                Mobile App Developer
               </div>
               <div
                 style={{
