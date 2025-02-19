@@ -214,7 +214,7 @@ export default function Home() {
         </div>
         <div
           style={{
-            background: `url('/${process.env.NEXT_PUBLIC_BASE_PATH}/assets/home2.svg')`,
+            background: `url('${process.env.NEXT_PUBLIC_BASE_PATH}/assets/home2.svg')`,
             padding: "50px 50px 50px 50px",
             color: "#fff",
             flex: 1,
