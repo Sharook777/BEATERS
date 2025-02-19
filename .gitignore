@@ -10,7 +10,7 @@ pnpm-debug.log*
 out/
 
 # Dependencies
-package-lock.json
+# package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
