@@ -100,7 +100,7 @@ export default function Home() {
               >
                 Know More
                 <Image
-                  src="/icons/expand.svg"
+                  src="./icons/expand.svg"
                   alt="icon"
                   width={15}
                   height={20}
@@ -126,7 +126,7 @@ export default function Home() {
               >
                 Connect with Us
                 <Image
-                  src="/icons/messages.svg"
+                  src="./icons/messages.svg"
                   alt="icon"
                   width={20}
                   height={20}
