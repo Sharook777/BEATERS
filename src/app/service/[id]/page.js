@@ -1,8 +1,7 @@
-"use client";
-
-import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { use } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
 
 const tabItems = [
   {
@@ -37,15 +36,29 @@ const tabItems = [
   },
 ];
 
+export async function generateStaticParams() {
+  const services = [
+    { id: "mobile-app-development" },
+    { id: "web-app-development" },
+    { id: "web-design" },
+    { id: "software-development" },
+    { id: "maintenance-and-support" },
+  ];
+
+  return services.map((service) => ({
+    id: service.id,
+  }));
+}
+
 export default function Details({ params }) {
-  const router = useRouter();
   const { id } = use(params);
 
-  const handleClick = (id) => {
-    router.push(`/service/${id}`);
-  };
-
   const currentItem = tabItems?.find((tab) => tab.id === id);
+
+  if (!currentItem) {
+    notFound();
+  }
+
   return (
     <div>
       <div
@@ -72,29 +85,29 @@ export default function Details({ params }) {
           }}
         >
           {tabItems.map((tab) => (
-            <div
-              key={tab.id}
-              style={{
-                color: "#FFFFFFB2",
-                padding: 10,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 15,
-                border: "1px solid #FFFFFFB2",
-                fontWeight: 400,
-                borderRadius: 8,
-                cursor: "pointer",
-                ...(params.id === tab.id && {
-                  color: "#FFFFFF",
-                  background: "#2284C8",
-                  borderColor: "#2284C8",
-                }),
-              }}
-              onClick={() => handleClick(tab.id)}
-            >
-              {tab.title}
-            </div>
+            <Link key={tab.id} href={`/service/${tab.id}`}>
+              <div
+                style={{
+                  color: "#FFFFFFB2",
+                  padding: 10,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: 15,
+                  border: "1px solid #FFFFFFB2",
+                  fontWeight: 400,
+                  borderRadius: 8,
+                  cursor: "pointer",
+                  ...(id === tab.id && {
+                    color: "#FFFFFF",
+                    background: "#2284C8",
+                    borderColor: "#2284C8",
+                  }),
+                }}
+              >
+                {tab.title}
+              </div>
+            </Link>
           ))}
         </div>
         <div

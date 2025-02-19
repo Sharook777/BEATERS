@@ -1,7 +1,5 @@
-"use client";
-
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const ourServices = [
   {
@@ -42,11 +40,6 @@ const ourServices = [
 ];
 
 export default function OurServices() {
-  const router = useRouter();
-
-  const handleClick = (id) => {
-    router.push(`/service/${id}`);
-  };
   return (
     <div
       style={{
@@ -58,69 +51,76 @@ export default function OurServices() {
       }}
     >
       {ourServices.map((item) => (
-        <div
+        <Link
           key={item.title}
+          href={`/service/${item.link}`}
           style={{
-            background: "#135891",
-            padding: 20,
-            borderRadius: 5,
-            display: "flex",
-            gap: 30,
-            flexDirection: "column",
-            cursor: "pointer",
+            height: "100%",
           }}
-          onClick={() => handleClick(item.link)}
         >
           <div
             style={{
+              background: "#135891",
+              padding: 20,
+              borderRadius: 5,
               display: "flex",
-              gap: 10,
-              flex: 1,
+              gap: 30,
               flexDirection: "column",
+              cursor: "pointer",
+              height: "100%",
             }}
           >
-            <div>
-              <Image src={item.icon} alt="Beaters" width={30} height={60} />
-            </div>
             <div
               style={{
-                fontSize: 15,
-                fontWeight: 500,
-              }}
-            >
-              {item.title}
-            </div>
-            <div
-              style={{
-                fontSize: 13,
-                fontWeight: 200,
-              }}
-            >
-              {item.description}
-            </div>
-          </div>
-          <div>
-            <div
-              style={{
-                fontSize: 11,
-                fontWeight: 200,
                 display: "flex",
                 gap: 10,
-                alignItems: "center",
+                flex: 1,
+                flexDirection: "column",
               }}
             >
-              Know more
               <div>
-                <Image
-                  src="/icons/right-arrow.svg"
-                  alt="Beaters"
-                  width={10}
-                  height={60}
-                />
+                <Image src={item.icon} alt="Beaters" width={30} height={60} />
+              </div>
+              <div
+                style={{
+                  fontSize: 15,
+                  fontWeight: 500,
+                }}
+              >
+                {item.title}
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  fontWeight: 200,
+                }}
+              >
+                {item.description}
+              </div>
+            </div>
+            <div>
+              <div
+                style={{
+                  fontSize: 11,
+                  fontWeight: 200,
+                  display: "flex",
+                  gap: 10,
+                  alignItems: "center",
+                }}
+              >
+                Know more
+                <div>
+                  <Image
+                    src="/icons/right-arrow.svg"
+                    alt="Beaters"
+                    width={10}
+                    height={60}
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );
