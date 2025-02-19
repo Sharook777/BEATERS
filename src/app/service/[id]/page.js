@@ -7,31 +7,31 @@ const tabItems = [
   {
     id: "mobile-app-development",
     title: "Mobile App Development",
-    image: "./assets/mobile-app-development.svg",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/mobile-app-development.svg`,
     description: `Our mobile app development services focus on creating customized solutions that meet our clients' specific needs. We have expertise in developing user-friendly and visually appealing mobile applications for both iOS and Android platforms. Our team works closely with clients to understand their requirements and design intuitive interfaces that provide an exceptional user experience. We leverage the latest tools, technologies, and frameworks to develop feature-rich apps that can include functionalities such as social media integration, payment gateways, geolocation services, push notifications, and more.`,
   },
   {
     id: "web-app-development",
     title: "Web App Development",
-    image: "./assets/web-app-development.svg",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/web-app-development.svg`,
     description: `We specialize in crafting dynamic and scalable web applications tailored to meet your unique business requirements. Our skilled team of developers utilizes the latest technologies and frameworks to create robust and intuitive web apps that enhance user engagement and drive growth. Whether you need a custom web app from scratch or want to revamp your existing one, we provide end-to-end solutions, including strategic planning, seamless integration, rigorous testing, and ongoing maintenance`,
   },
   {
     id: "web-design",
     title: "Web Design ",
-    image: "./assets/web-design.svg",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/web-design.svg`,
     description: `We believe that a visually stunning and user-friendly website is the gateway to success in the online realm. Our experts blend creativity with usability to craft exceptional websites that leave a lasting impression on your visitors. By meticulously understanding your brand identity, target audience, and business goals, we deliver tailor-made designs that align with your vision. From responsive layouts to intuitive navigation, we prioritize user experience to ensure seamless interaction across devices.`,
   },
   {
     id: "software-development",
     title: "Software Development",
-    image: "./assets/software-development.svg",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/software-development.svg`,
     description: `Our software development services cover the entire software development life cycle. We work closely with clients to understand their business objectives and conceptualize software solutions that align with their specific requirements. Our team of skilled developers utilizes industry best practices and the latest technologies to build scalable, robust, and secure software applications. We emphasize clean code architecture, efficient database design, and rigorous testing to ensure the reliability and performance of the software. From front-end development to back-end integration, we offer end-to-end software development services that deliver high-quality solutions.`,
   },
   {
     id: "maintenance-and-support",
     title: "Maintenance and Support",
-    image: "./assets/maintenance-and-support.svg",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH}/assets/maintenance-and-support.svg`,
     description: `We understand the importance of ongoing maintenance and support for the smooth operation of applications and software systems. Our maintenance and support services are designed to address any issues that arise after the development phase. We provide bug fixing, regular updates, version upgrades, and security patches to keep the software up-to-date and secure. Our technical support team is available to assist clients with any queries or concerns, ensuring uninterrupted functionality and minimizing any potential downtime. We prioritize prompt response times and efficient issue resolution to provide our clients with reliable and dependable support services.`,
   },
 ];
@@ -63,7 +63,7 @@ export default function Details({ params }) {
     <div>
       <div
         style={{
-          background: 'url("./assets/home.png")',
+          background: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/assets/home.png")`,
           height: "100vh",
           backgroundPosition: "center",
           backgroundSize: "cover",
