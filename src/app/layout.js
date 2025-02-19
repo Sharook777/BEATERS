@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
             >
               Connect with Us
               <Image
-                src="./icons/messages.svg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/messages.svg`}
                 alt="Logo"
                 width={20}
                 height={20}
@@ -206,7 +206,7 @@ export default function RootLayout({ children }) {
                   >
                     <div>
                       <Image
-                        src="./icons/facebook.svg"
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/facebook.svg`}
                         alt="Logo"
                         width={20}
                         height={60}
@@ -214,7 +214,7 @@ export default function RootLayout({ children }) {
                     </div>
                     <div>
                       <Image
-                        src="./icons/linkedin.svg"
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/linkedin.svg`}
                         alt="Logo"
                         width={20}
                         height={60}
@@ -222,7 +222,7 @@ export default function RootLayout({ children }) {
                     </div>
                     <div>
                       <Image
-                        src="./icons/instagram.svg"
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/instagram.svg`}
                         alt="Logo"
                         width={20}
                         height={60}
@@ -230,7 +230,7 @@ export default function RootLayout({ children }) {
                     </div>
                     <div>
                       <Image
-                        src="./icons/x_logo.svg"
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icon/x_logo.svg`}
                         alt="Logo"
                         width={20}
                         height={60}
