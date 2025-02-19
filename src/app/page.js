@@ -154,7 +154,7 @@ export default function Home() {
         </div>
         <div>
           <Image
-            src="/assets/home-2.png"
+            src="./assets/home-2.png"
             alt="Beaters"
             width={400}
             height={60}
@@ -214,7 +214,7 @@ export default function Home() {
         </div>
         <div
           style={{
-            background: 'url("/assets/home2.svg")',
+            background: 'url("./assets/home2.svg")',
             padding: "50px 50px 50px 50px",
             color: "#fff",
             flex: 1,
