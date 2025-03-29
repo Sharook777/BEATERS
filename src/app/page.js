@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 import HomeText from "@/components/HomeText";
 import OurServices from "@/components/OurServices";
